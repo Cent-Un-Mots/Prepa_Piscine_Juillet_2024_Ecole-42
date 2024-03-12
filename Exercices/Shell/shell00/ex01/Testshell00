@@ -1,0 +1,15 @@
+	touch testShell00
+ls -l
+-rwxrwxrwx 1 axel axel  xX  xX xx xx     testShell00
+truncate -s 40 testShell00
+ls -l
+-rwxrwxrwx 1 axel axel  40  xX xx xx     testShell00
+chmod ugo-w testShell00
+chmod u-x testShell00
+ls -l
+-r--r-xr-x 1 axel axel    40 xx xx xx   testShell00
+-t 202406012347.00 testShell00
+ls- l
+-r--r-xr-x 1 axel axel    40 juin   1  2024 testShell00
+
+
